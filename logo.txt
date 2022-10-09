@@ -1,0 +1,3 @@
+The logo was made by a person on upwork.  His logo does not appear properly in the web page
+I fixed the issue by adding in the svg file the following:
+    width="168.88933" height="62.666668" 
