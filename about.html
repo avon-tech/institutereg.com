@@ -1,66 +1,78 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    
+
     <!-- Favicon -->
     <!--<link rel="shortcut icon" href="./assets/favicon/favicon.ico" type="image/x-icon" />-->
     <!--The following is from healthspannaturals.com-->
     <link rel="icon" type="image/png" href="./assets/favicon/favicon.png?crop=center&height=32&v=1730039801&width=32">
 
     <!-- Map CSS -->
-    <link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css" />
-    
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/v0.53.0/mapbox-gl.css"
+    />
+
     <!-- Libs CSS -->
     <link rel="stylesheet" href="./assets/css/libs.bundle.css" />
-    
+
     <!-- Theme CSS -->
     <link rel="stylesheet" href="./assets/css/theme.bundle.css" />
-    
+
     <!-- Title -->
     <title>Institute of Regeneration - VSEL Stem Cell Therapy</title>
-      <style>
-          .cust-pad
-          {
-              padding-bottom:1%;
-          }
-      </style>
-      
+    <style>
+      .cust-pad {
+        padding-bottom: 1%;
+      }
+    </style>
+
     <!--
     I removed the Google Analytics code because it was copied from the institute site. Aug 7 2022
     -->
-      
   </head>
 
   <body>
-
     <!-- MODALS -->
     <!--{{> partials/modals}}-->
 
-      <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-light bg-white">
-          <div class="container">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <img src="./logo.svg" class="navbar-brand-img" alt="..." />
+        </a>
 
-              <!-- Brand -->
-              <a class="navbar-brand" href="index.html">
-                  <img src="./logo.svg" class="navbar-brand-img" alt="...">
-              </a>
+        <!-- Toggler -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-              <!-- Toggler -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-
-              <!-- Collapse -->
-              <div class="collapse navbar-collapse" id="navbarCollapse">
-
-                  <!-- Toggler -->
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                      <i class="fe fe-x"></i>
-                  </button>
-
+        <!-- Collapse -->
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <!-- Toggler -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fe fe-x"></i>
+          </button>
 
                   <!-- Navigation -->
                   <ul class="navbar-nav"> <!-- removed ms-auto david -->
@@ -78,7 +90,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" id="navbarPages" href="about.html">
+                      <a class="nav-link" id="navbarPages" href="about.html">
                           About Us
                       </a>
                   </li>
@@ -88,20 +100,16 @@
                         </a>
                     </li>
                 </ul>
-                  
 
-                  <!-- Button -->
-                  <!--
+          <!-- Button -->
+          <!--
                   <a class="navbar-btn btn btn-sm btn-primary lift ms-auto" href="https://app.avoninstitute.com/">
                       Login
                   </a>
                   -->
-
-              </div>
-
-          </div>
-      </nav>
-      
+        </div>
+      </div>
+    </nav>
 
     <!-- IMAGE -->
     <!--<section data-jarallax data-speed=".8" class="py-12 py-md-15 bg-cover jarallax" style="background-image: url(assets/img/covers/cover-8.jpg);"></section>-->
@@ -111,78 +119,80 @@
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-9 col-xl-8">
-
             <!-- Heading -->
             <h1 class="display-4 text-center">
-              Contact Us
+              About Us 
             </h1>
-
           </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <!-- SECTION -->
-    <section class="pt-6 pt-md-8">
-      <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-9 col-xl-8">
-              
-            <!--
-            <p>
-            <b>Address</b> <br>
-              Institute of Regeneration <br>
-              To be determined <br>
-            </p>
-            -->
-
-            <h2>Email</h2>
-            hello@institutereg.com </br></br>
-
-            <h2>Hours</h2>
-              Mon - Thu: 8am to 5pm <br>
-              Friday: 8am to 4pm <br>
-
-          </div>
-        </div> <!-- / .row -->
-      </div> <!-- / .container -->
-    </section>
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-      
-      <!-- SHAPE -->
-      <div class="position-relative">
-          <div class="shape shape-bottom shape-fluid-x text-gray-200">
-              <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z" fill="currentColor" /></svg>
-          </div>
+        </div>
+        <!-- / .row -->
       </div>
+      <!-- / .container -->
+    </section>
 
-      <!-- FOOTER -->
-      <footer class="py-8 py-md-11 bg-gray-200">
-          <div class="container">
-              <div class="row">
-                  <div class="col-12 col-md-8 col-lg-8">
+    <section class="pt-4 pt-md-11" style="padding-bottom:25px">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-7 col-lg-6 cust-pad order-md-2 ps-11">
+                    <img src="./images/david.jpg" width="400" height="500">
+                </div>
+                <div class="col-12 col-md-7 col-lg-6 cust-pad order-md-2 ps-11">
+                    My name is David J. Potter and I am the company's founder.
+                    I am a health enthusiast passionate about bringing the best health treatments to the world. 
+                    For full transparency here is my <a href="https://davidjpotter.com/routines" target="_blank">health routine</a>.
+                </div>
+            </div> <!-- / .row -->
+        </div> <!-- / .container -->
+    </section>
 
-                      <!-- Brand -->
-                      <!--<img src="./logo.png" alt="..." class="footer-brand img-fluid mb-2">-->
 
-                      <!-- Text -->
-                      <p class="text-gray-700 mb-2">
-                          © Institute of Regeneration <br><br>
-                          <!--
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+
+      
+    <!-- SHAPE -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x text-gray-200">
+        <svg
+          viewBox="0 0 2880 48"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 48h2880V0h-720C1442.5 52 720 0 720 0H0v48z"
+            fill="currentColor"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="py-8 py-md-11 bg-gray-200">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-8 col-lg-8">
+            <!-- Brand -->
+            <!--<img src="./logo.png" alt="..." class="footer-brand img-fluid mb-2">-->
+
+            <!-- Text -->
+            <p class="text-gray-700 mb-2">
+              © Institute of Regeneration <br /><br />
+              <!--
                           <a href="index.html">Avon Cell Therapy</a> <br>
                           <a href="https://avoninstitute.com/" target="_blank">Avon Institute</a> <br>
                           <a href="https://avonehr.com/" target="_blank">Avon EHR</a>
                           -->
-                      </p>
+            </p>
 
-                      <!-- Social -->
-                      <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
-                          <!--
+            <!-- Social -->
+            <ul class="list-unstyled list-inline list-social mb-6 mb-md-0">
+              <!--
                           <li class="list-inline-item list-social-item me-3">
                               <a href="https://www.youtube.com/channel/UCb0w-aUAE0EHOD0SfKQEL-g" target="_blank" class="text-decoration-none">
                                   <img src="./assets/img/icons/social/youtube.svg" class="list-social-icon" alt="...">
@@ -209,11 +219,10 @@
                               </a>
                           </li>
                           -->
-                      </ul>
+            </ul>
+          </div>
 
-                  </div>
-
-                  <!--
+          <!--
                   <div class="col-6 col-md-4 offset-md-4 col-lg-2 offset-lg-0">
                       <h6 class="fw-bold text-uppercase text-gray-700">
                           Products
@@ -261,13 +270,13 @@
                       </ul>
                   </div>
                   -->
-
-              </div> <!-- / .row -->
-          </div> <!-- / .container -->
-      </footer>
+        </div>
+        <!-- / .row -->
+      </div>
+      <!-- / .container -->
+    </footer>
 
     <!-- JAVASCRIPT -->
     <!--{{> partials/scripts}}-->
-
   </body>
 </html>
